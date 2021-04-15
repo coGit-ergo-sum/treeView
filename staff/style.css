@@ -63,10 +63,10 @@
 		background-image: url("../images/function.png"); 
 	}
 	ul.container li span.boxOpen{
-		background-image: url("../images/boxOpen.png"); 
+		background-image: url("../images/BoxOpen.png"); 
 	}
 	ul.container li span.boxClose{
-		background-image: url("../images/boxClose.png"); 
+		background-image: url("../images/BoxClose.png"); 
 	}
 	ul.container li span.string{
 		background-image: url("../images/string.png"); 
