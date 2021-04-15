@@ -54,37 +54,37 @@
 	}	
 	
 	ul.container li span.open{
-		background-image: url("./images/open.png"); 
+		background-image: url("../images/open.png"); 
 	}
 	ul.container li span.close{
-		background-image: url("./images/close.png"); 
+		background-image: url("../images/close.png"); 
 	}	
 	ul.container li span.function{
-		background-image: url("./images/function.png"); 
+		background-image: url("../images/function.png"); 
 	}
 	ul.container li span.boxOpen{
-		background-image: url("./images/boxOpen.png"); 
+		background-image: url("../images/boxOpen.png"); 
 	}
 	ul.container li span.boxClose{
-		background-image: url("./images/boxClose.png"); 
+		background-image: url("../images/boxClose.png"); 
 	}
 	ul.container li span.string{
-		background-image: url("./images/string.png"); 
+		background-image: url("../images/string.png"); 
 	}
 	ul.container li span.number{
-		background-image: url("./images/number.png"); 
+		background-image: url("../images/number.png"); 
 	}	
 	ul.container li span.exclamation{
-		background-image: url("./images/exclamation.png");
+		background-image: url("../images/exclamation.png");
 	}
 	ul.container li span.question{
-		background-image: url("./images/question.png");
+		background-image: url("../images/question.png");
 	}	
 	ul.container li span.yinyang{
-		background-image: url("./images/yinyang.png");
+		background-image: url("../images/yinyang.png");
 	}		
 	ul.container li span.wait{
-		background-image: url("./images/wait.gif"); 
+		background-image: url("../images/wait.gif"); 
 	}
 	
 	ul.container li span.exclamation + span.text{
