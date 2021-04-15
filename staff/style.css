@@ -29,7 +29,7 @@
 	
 	ul.container li span.text:hover{
 		background-color:red;
-		color:blue;
+		color:white;
 	}
 	
 	ul.container li span.sign:hover{
