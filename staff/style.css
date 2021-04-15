@@ -1,0 +1,126 @@
+
+	ul.container{
+		background-color:#fff;
+		border:solid 1px #555;
+		padding: 5px 5px 5px 5px;	
+		overflow-y:scroll;
+		height:650px;
+		width:50%;
+		margin:auto;
+		/* margin:50px 5px 5px 5px; */	
+		margin-top:10px;
+	}
+	
+	ul.container li span{
+		padding-top: 2px;
+		padding-bottom: 2px;
+		margin-top: 2px;
+		margin-bottom: 2px;
+	}
+	
+	ul.container li span.text{
+		border:solid 0px red;
+		border-radius:3px;
+		padding-left: 3px;
+		margin-left:3px; 
+		padding-right: 5px;
+		margin-right: 0px;
+	}
+	
+	ul.container li span.text:hover{
+		background-color:red;
+		color:white;
+	}
+	
+	ul.container li span.sign:hover{
+		cursor: pointer;
+	}
+	/* *************************** */
+	
+	ul.container li{
+		border:solid 0px transparent;	
+		list-style-type: none; /* Remove bullets */		
+	}
+	
+	ul.container li span.sign{
+		text-align:center;
+		/* font-family:'courier new';*/
+		margin-right:2px;
+	}
+
+	ul.container li span.icon{
+		background-repeat: no-repeat;
+		background-position: center center;
+	}	
+	
+	ul.container li span.open{
+		background-image: url("./images/open.png"); 
+	}
+	ul.container li span.close{
+		background-image: url("./images/close.png"); 
+	}	
+	ul.container li span.function{
+		background-image: url("./images/function.png"); 
+	}
+	ul.container li span.boxOpen{
+		background-image: url("./images/boxOpen.png"); 
+	}
+	ul.container li span.boxClose{
+		background-image: url("./images/boxClose.png"); 
+	}
+	ul.container li span.string{
+		background-image: url("./images/string.png"); 
+	}
+	ul.container li span.number{
+		background-image: url("./images/number.png"); 
+	}	
+	ul.container li span.exclamation{
+		background-image: url("./images/exclamation.png");
+	}
+	ul.container li span.question{
+		background-image: url("./images/question.png");
+	}	
+	ul.container li span.yinyang{
+		background-image: url("./images/yinyang.png");
+	}		
+	ul.container li span.wait{
+		background-image: url("./images/wait.gif"); 
+	}
+	
+	ul.container li span.exclamation + span.text{
+		color:red;
+	}
+	ul.container li span.exclamation + span.text:hover{
+		color:white;
+	}
+	
+	
+		
+	ul.container li span.sign, ul.container li span.icon{
+		border:solid 0px red;
+		display:inline-block;
+		width:1em;
+		/* text not selectable */
+		-webkit-touch-callout: none; /* iOS Safari */
+		-webkit-user-select: none;   /* Safari */
+		-khtml-user-select: none;    /* Konqueror HTML */
+		-moz-user-select: none;      /* Old versions of Firefox */
+		-ms-user-select: none;       /* Internet Explorer/Edge */
+		user-select: none;           /* Non-prefixed version, currently supported by Chrome, Edge, Opera and Firefox */				
+	}
+
+	ul.container ul{
+		border:solid 0px transparent;
+		padding: 0px;	
+
+		/* *** sets the indentation *** */
+		margin: 0px 0px 0px 1em;
+		/* **************************** */
+	}
+	
+	ul.container div{
+		border:solid 0px red;
+		white-space: nowrap;
+		overflow: hidden;
+		text-overflow: ellipsis;		
+	}
